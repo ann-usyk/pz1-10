@@ -19,7 +19,7 @@ module.exports={
     },
     plugins:[
         new miniCss({
-            filename: 'style.scc',
+            filename: 'style.css',
         }),
     ]
 };

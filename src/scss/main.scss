@@ -1,0 +1,100 @@
+//main
+.main-flex-column {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+.git-about {
+    width: 480px;
+    height: 350px;
+    padding-top: 80px;
+
+}
+
+.git-about-header {
+    color: #fff;
+    font-size: 56px;
+    font-family: -apple-system, system-ui, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+
+}
+
+.git-about-description {
+    color: #9a9da4;
+    font-family: -apple-system, system-ui, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+    line-height: 25px;
+    font-size: 18px;
+}
+.link-description{
+    text-decoration: none;
+    color: #e2e6e9;
+}
+
+.sign-up-pannel {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 380px;
+    border-radius: 5px;
+    background-color: #fafbfd;
+    color: #7b7c7e;
+}
+
+.label-name {
+    color: #7b7c7e;
+    font-size: 11px;
+    font-family: -apple-system, system-ui, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", ;
+    font-weight: 700;
+    margin-left: 5px;
+}
+
+.input-form {
+    margin-bottom: 10px;
+    margin-top: 5px;
+    width: 300px;
+    height: 30px;
+    border-color: #e5e6e8;
+    border-radius: 5px;
+    border: 1px solid #c9cacb;
+    color: #c9cacb;
+    cursor: pointer;
+    
+}
+
+.label-inform{
+    width: 310px;
+    font-size: 10px;
+    color: #000;
+    text-align: justify;
+    line-height: 15px;  
+      letter-spacing: 0.3px;
+      font-family: -apple-system, system-ui, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", ;
+  
+}
+.label-inform-link{
+    color: blue;
+    cursor: pointer;
+  
+} 
+.btn-signup-form {
+    background-color: #2ebc4e;
+    color: #fff;
+    border-radius: 5px;
+    border: 0;
+    width: 310px;
+    height: 50px;
+    cursor: pointer;
+}
+
+.user-rules-areement{
+    width: 310px;
+    font-size: 10px;
+    color: #000;
+    text-align: justify;
+    line-height: 15px;  
+      font-family: -apple-system, system-ui, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", ;
+  margin-top: 15px;
+}

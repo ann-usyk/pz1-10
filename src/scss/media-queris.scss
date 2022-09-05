@@ -1,0 +1,175 @@
+@media (max-width: 1024px) {
+    .sign-up-pannel {
+        height: 410px;
+    }
+}
+
+@media (max-width: 768px) {
+    .header-old{
+        height: 100px;
+        top: 50px;
+    z-index: 2;
+    }
+    .header-menu-container {
+        flex-direction: row;
+        width: 768px;
+        height: 600px;
+        z-index: 2;
+    }
+
+    .header-list-item-flex-column {
+        display: flex;
+        position: relative;;
+        width: 768px;
+        height: 600px;
+
+    }
+
+    .header-container {
+        display: flex;
+        flex-direction: column;
+        width: 768px;
+        height: 600px;
+        background-color: #24292f;
+        top: 100px;
+    }
+
+
+    .btn-flex-column {
+        display: flex;
+        flex-direction: row;
+        width: 768px;
+
+    }
+
+    .btn-signup {
+        margin-right: 0px;
+
+    }
+
+    .git-about {
+        width: 350px;
+        padding-top: 50px;
+    }
+
+    .git-about-description {
+        width: 300px;
+        font-size: 16px;
+    }
+
+    .user-rules-agreement {
+        margin-top: 5px;
+    }
+
+    .sign-up-pannel {
+        margin-top: 20px;
+        height: 390px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+    #header-container{
+        width: 35px;
+        height: 30px;
+        margin: 30px 0 20px 20px;
+        cursor: pointer;
+    }
+    
+    #bar1{
+        transform: translateY(-4px);
+    }
+    #bar3{
+        transform: translateY(4px);
+    }
+   
+   
+    .header-container{
+        padding: 0;
+        margin: 0 20px;
+        transition: 0.3s ease;
+        display: none;
+    }
+    .menu-bg, #menu-bar{
+        top: 0;
+        left: 0;
+        position: absolute;
+    }
+    .menu-bg{
+        z-index: 1;
+        width: 0;
+        height: 0;
+        margin: 30px 0 20px 20px;
+        background: radial-gradient(circle,#e94498,#b81568);
+        border-radius: 50%;
+        transition: 0.3s ease;
+    }
+    #menu-bar{
+        z-index: 2;  
+    }
+    .change-bg{
+        width: 550px;
+        height: 540px;
+        transform: translate(-60%,-30%);
+    }
+    .change .bar{
+        background-color: white;
+    }
+    .change #bar1{
+        transform: translateY(4px) rotateZ(-45deg);
+    }
+    .change #bar3{
+        transform: translateY(-6px) rotate(45deg);
+    }
+    .change #bar2{
+        opacity: 0;
+    }
+    .change{
+        display: block;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 425px) {
+    .main-content{
+        flex-direction: row;
+    }
+   .main-flex-column{
+    width: 425px;
+    flex-direction: row;
+   }
+}

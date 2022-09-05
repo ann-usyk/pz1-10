@@ -7,17 +7,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GitHub</title>
     <link rel='stylesheet' href='./dist/style.css'>
-    <link rel="stylesheet" href="./src/fonts/Mukta-SemiBold/mukta/Mukta-SemiBold.ttf">
 </head>
 
 <body>
 
     <header class="header-old">
-        <div class="header-container">
-
+        <div id="menu" onclick="onClickMenu()">
+            <div id="bar1" class="bar"></div>
+            <div id="bar2" class="bar"></div>
+            <div id="bar3" class="bar"></div>
+        </div>
+        <div class="header-container"> 
             <div class="header-menu-container">
-
-
                 <nav class="header-list-item-flex-column">
                     <ul class="list-menu">
                         <li class="list-menu-item"><img class="git-logo" src="./src/img/Github-Logo-White.png"
@@ -38,28 +39,50 @@
             <div class="btn-flex-column">
                 <label for="">
                     <input class="btn-search" type="text" placeholder="Search GitHub" name="uname" required>
-
                     <!--  <img class="image-search" src="./src/img/search-slash.png" alt="">-->
                 </label>
                 <button class="btn-signin">Sign in</button>
                 <button class="btn-signup">Sign up</button>
+               
+            </div>
 
             </div>
-        </div>
+       
+		<div class="menu-bg" id="menu-bg"></div>
+        <script>
+            function onClickMenu(){
+	document.getElementById("menu").classList.toggle("change");
+	document.getElementById("header-container").classList.toggle("change");
+	
+	document.getElementById("menu-bg").classList.toggle("change-bg");
+}
+        </script>
     </header>
 
 
 
+
+
+
+
+
+
+
+
+
+
+
     <div class="main-content">
-        <!--  <img src="./src/img/bg.jpg" alt="">-->
         <div class="main-flex-column">
             <div class="git-about">
                 <p class="git-about-header">Built for<br> developers</p>
                 <br><br>
                 <p class="git-about-description">GitHub is a development platform inspired by the<br> way you work. From
-                   <a class="link-description" href="#">open source</a>  to <a class="link-description" href="#"> business</a> , you<br> can
+                    <a class="link-description" href="#">open source</a> to <a class="link-description" href="#">
+                        business</a> , you<br> can
                     host and
-                    review code, manage projects, and<br>build software alongside 50 million developers.</p>
+                    review code, manage projects, and<br>build software alongside 50 million developers.
+                </p>
             </div>
             <div class="sign-up-pannel">
                 <div>
@@ -86,7 +109,7 @@
             </div>
         </div>
     </div>
-    <script src="./dist/bundle.js"></script>
+    <script src="./dist/bundle.js">    </script>
 </body>
 
 </html>
